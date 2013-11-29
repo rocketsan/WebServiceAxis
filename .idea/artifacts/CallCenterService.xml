@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CallCenterService">
+    <output-path>$PROJECT_DIR$/out/artifacts/CallCenterService</output-path>
+    <root id="archive" name="CallCenterService.jar">
+      <element id="directory" name="enhol">
+        <element id="file-copy" path="$PROJECT_DIR$/out/production/WebServiceAxis2/enhol/CallCenterDataProvider.class" />
+        <element id="directory" name="types">
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/WebServiceAxis2/enhol/types" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/services-CC.xml" output-file-name="services.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

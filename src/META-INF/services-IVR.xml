@@ -1,0 +1,14 @@
+<serviceGroup>
+    <service name="IVR">
+        <parameter name="ServiceClass" locked="false">enhol.IVRDataProvider</parameter>
+        <operation name="getDebtInfo">
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="putReadings">
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="searchAbonByClid">
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+    </service>
+</serviceGroup>
